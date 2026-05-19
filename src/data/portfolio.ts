@@ -1,12 +1,12 @@
 export const PORTFOLIO_DATA = {
-  name: "Alexander Vance",
+  name: "Timothy Mayor",
   role: "Senior AI Solutions Engineer",
   summary: "10+ years of engineering excellence at the intersection of applied AI, cloud infrastructure, and enterprise workflow automation. I bridge the gap between R&D and commercially viable SaaS solutions.",
   experience: "10+ Years Senior",
   projectsCompleted: "50+",
   industries: ["Fintech", "Healthcare", "Retail", "Logistics", "Manufacturing", "Ecommerce", "SaaS"],
   location: "Austin, TX / Remote",
-  email: "a.vance@ai-solutions.io",
+  email: "t.mayor@ai-solutions.io",
   
   services: [
     {

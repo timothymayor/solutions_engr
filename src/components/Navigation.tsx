@@ -13,7 +13,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-6 md:px-10 h-20">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-gradient-to-br from-brand-orange via-brand-green to-brand-slate-800 rounded-lg flex items-center justify-center font-bold text-white shadow-lg shadow-brand-orange/10">
-            AV
+            TM
           </div>
           <div>
             <h1 className="text-sm md:text-lg font-bold tracking-tight text-white leading-none">{PORTFOLIO_DATA.name}</h1>
@@ -27,7 +27,7 @@ export function Navbar() {
           <a href="#services" className="hover:text-white text-brand-slate-400 transition-colors">Solutions</a>
           <a href="#projects" className="hover:text-white text-brand-slate-400 transition-colors">Case Studies</a>
           <button className="bg-white text-brand-slate-950 px-5 py-2 rounded-full text-xs font-bold hover:bg-brand-orange hover:text-white transition-all shadow-xl shadow-white/5 whitespace-nowrap ml-4">
-            HIRE ALEXANDER
+            HIRE TIMOTHY
           </button>
         </nav>
 
@@ -83,7 +83,7 @@ export function Hero() {
               href="#contact" 
               className="w-full sm:w-auto enterprise-card px-8 py-4 rounded-full font-bold hover:bg-brand-slate-800 transition-all"
             >
-              HIRE ALEXANDER
+              HIRE TIMOTHY
             </a>
           </div>
 

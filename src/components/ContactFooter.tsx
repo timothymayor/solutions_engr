@@ -120,7 +120,7 @@ export function Footer() {
     <footer className="py-12 border-t border-brand-slate-800 bg-brand-slate-950">
       <div className="container mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 bg-brand-slate-900 rounded flex items-center justify-center text-[10px] font-bold text-brand-orange border border-brand-slate-800">AV</div>
+          <div className="w-8 h-8 bg-brand-slate-900 rounded flex items-center justify-center text-[10px] font-bold text-brand-orange border border-brand-slate-800">TM</div>
           <div>
             <p className="text-brand-slate-200 text-sm font-bold tracking-tight">{PORTFOLIO_DATA.name}</p>
             <p className="text-brand-slate-500 text-[9px] uppercase tracking-widest font-mono">Senior Engineer © 2026</p>
