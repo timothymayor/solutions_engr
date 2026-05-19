@@ -1,2 +1,2 @@
+# Disable Jekyll
 theme: ""
-exclude: [node_modules, package.json, package-lock.json, vite.config.ts, tsconfig.json, src]
