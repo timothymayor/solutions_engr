@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Mail, Cpu, Zap, Cloud, Layout, ArrowRight, ExternalLink, Github, Linkedin, Terminal, Boxes, Network, CheckCircle2 } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { PORTFOLIO_DATA } from '../data/portfolio';
+import heroImg from '../assets/images/hero_ai_abstract_1779204853630.png';
 
 export function Navbar() {
   return (
@@ -45,8 +46,15 @@ export function Navbar() {
 export function Hero() {
   return (
     <section id="hero" className="relative min-h-[90vh] flex items-center justify-center pt-20 overflow-hidden border-b border-brand-slate-800">
-      {/* Background Decorative Gradient */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-brand-slate-950 to-brand-slate-900/50" />
+      {/* Background Hero Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src={heroImg} 
+          alt="Abstract AI Architecture"
+          className="w-full h-full object-cover opacity-20"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-slate-950 via-brand-slate-950/80 to-brand-slate-900/50" />
+      </div>
       
       <div className="container relative z-10 px-6 md:px-10 py-20 flex flex-col items-center text-center">
         <motion.div
